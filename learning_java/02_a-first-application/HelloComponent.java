@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class HelloComponent extends JComponent {
+class HelloComponent extends JComponent {
     public void paintComponent(Graphics g) {
-        g.drawString("Hello Java World!", 125, 96);
+        g.drawString("Hello Java World!\n @xiaoqi.com", 225, 196);
     }
 }

@@ -15,10 +15,10 @@ public class HelloJava_Frame_new {
 
         frame.add( new HelloComponent());
 
-        JButton button = new JButton("Continue?");
+/*         JButton button = new JButton("Continue?");
         button.setBounds(200,100,95,30);
 
-        frame.add(button);
+        frame.add(button); */
         // need to learn the syntax of "button" ;-)
 
         frame.setSize( 500, 500 );
