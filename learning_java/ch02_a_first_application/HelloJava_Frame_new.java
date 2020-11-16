@@ -1,7 +1,7 @@
 import javax.swing.*;
 // learn java swing methods at https://javatpoint.com/java-swing
 
-public class HelloJava_Frame {
+public class HelloJava_Frame_new {
     public static void main(String[] args) {
         //System.out.println("Hello, Java. (Yasen, 2020-11-15)");
         // instead of using println, we use below JFrame, with "import javax.swing.*"
@@ -9,9 +9,11 @@ public class HelloJava_Frame {
         JFrame frame = new JFrame( "Hello, Java!" );
 
         // add one label
-        JLabel label = new JLabel("Hello, World!\n This is the wonderful world!", JLabel.LEFT);
+/*         JLabel label = new JLabel("Hello, World!\n This is the wonderful world!", JLabel.LEFT);
         label.setBounds(50,40,100,30);
-        frame.add(label);
+        frame.add(label); */
+
+        frame.add( new HelloComponent());
 
         JButton button = new JButton("Continue?");
         button.setBounds(200,100,95,30);
