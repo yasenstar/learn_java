@@ -1,0 +1,8 @@
+public class CompareString {
+    public static void main(String[] arguments) {
+        String favorite = "chainsaw";
+        String guess = "pool cue";
+        System.out.println("Is Fin's favorite weapon is " + guess + " ?");
+        System.out.println("Answer: " + favorite.equals(guess));
+    }
+}
