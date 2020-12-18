@@ -24,3 +24,13 @@ jshell> /exit
 $
 ```
 
+## Input from Terminal
+
+```java
+import java.io.*;
+import java.util*;
+...
+Scanner input = new Scanner(System.in);
+variableInt = input.nextInt();
+variableDouble = input.nextDouble();
+```
